@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
       proxy: {
-        '*': { target: "https://capybara-backend.vercel.app" }
+        '*': { target: ["https://capybara-backend.vercel.app", "http://localhost:3000"] }
       }
   }
 })

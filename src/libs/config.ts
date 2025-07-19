@@ -1,1 +1,1 @@
-export const API_URL = "https://capybara-backend.vercel.app"
+export const API_URL =  import.meta.env.NODE_ENV === "development" ? "http://localhost:3000" : "https://capybara-backend.vercel.app"
