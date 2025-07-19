@@ -69,9 +69,9 @@ export default function Home(){
 
                 <div className="bg-hero bg-gradient-to-t from-primary to-fifth h-[600px] w-[600px] absolute bottom-[280px] rounded-full z-[1] shadow-lg" ref={circle}></div>
             </div>
-            <div className="list bg-fourth py-12 rounded-[80px] flex flex-col justify-center items-center">
-                <div className="bar w-[200px] h-[14px] bg-primary rounded-full"></div>
-                <div className="title text-[48px] font-bold tracking-tight text-primary mb-10 mt-6">Rencana Kegiatan</div>
+            <div className="list bg-fourth py-12 rounded-[40px] flex flex-col justify-center items-center">
+                <div className="bar w-[100px] h-[8px] bg-primary rounded-full"></div>
+                <div className="title text-[30px] font-bold tracking-tight text-primary mb-10 mt-6">Rencana Kegiatan</div>
                     <PageList cardList={cardList}/>
                 </div>
             </div>
