@@ -6,6 +6,9 @@ import Passage from "./pages/Passage";
 import Affirmation from "./pages/Affirmation";
 import Word from "./pages/Word";
 import NavBottom from "./components/navbar/NavBottom";
+import axios from 'axios'
+
+axios.defaults.withCredentials = true
 
 export default function App(){
 
