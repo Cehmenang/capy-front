@@ -1,6 +1,4 @@
 import { useEffect, useState } from "react";
-import NavList from "./NavList";
-import { RxHamburgerMenu } from "react-icons/rx";
 import { BsMoonStarsFill } from "react-icons/bs";
 import { HiSun } from "react-icons/hi";
 

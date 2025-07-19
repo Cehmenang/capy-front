@@ -1,4 +1,3 @@
-import NavList from "../components/navbar/NavList";
 import CapyMain from "../../public/capymain.png"
 import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
@@ -13,6 +12,8 @@ export default function Home(){
     const circle = useRef(null)
     const capy = useRef(null)
     const cardList = useRef<any>(null)
+
+    console.log(day)
 
   useEffect(()=>{
     gsap.to(circle.current, {

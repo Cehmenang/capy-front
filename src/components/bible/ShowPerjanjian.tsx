@@ -2,8 +2,6 @@ import { useEffect, useRef, useState } from "react"
 import type { IPassage } from "../../libs/interface"
 import PerjanjianButton from "./PerjanjianButton"
 import gsap from "gsap"
-import axios from "axios"
-import { getChapterHandler } from "../../action/bible"
 
 export default function ShowPerjanjian({ perjanjian }: { perjanjian: IPassage[] }){
     const [open, setOpen] = useState<IPassage | any>(false)

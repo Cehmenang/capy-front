@@ -61,15 +61,15 @@ export default function Bible(){
         }
     }, [passages])
 
-    function ShowPassages(){
-        return passages!.data.map((passage: any, index: number)=>{
-            return (
-                <div className="passage" key={index}>
-                    <button className="text-[50px]">{passage.name}</button>
-                </div>
-            )
-        })
-    }
+    // function ShowPassages(){
+    //     return passages!.data.map((passage: any, index: number)=>{
+    //         return (
+    //             <div className="passage" key={index}>
+    //                 <button className="text-[50px]">{passage.name}</button>
+    //             </div>
+    //         )
+    //     })
+    // }
 
     // function ShowPerjanjian({ nilai, param }: { nilai: any, param: boolean }){
     //     return (

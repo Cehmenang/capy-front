@@ -1,8 +1,7 @@
 import { useEffect, useRef, useState } from "react"
 import { useParams } from "react-router"
-import { getChapterHandler, getPassages } from "../action/bible"
+import { getChapterHandler } from "../action/bible"
 import ShowVerse from "../components/Passage/ShowVerse"
-import type { IPassage } from "../libs/interface"
 import NavigateVerse from "../components/Passage/NavigateVerse"
 import gsap from "gsap"
 

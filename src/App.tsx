@@ -4,7 +4,6 @@ import NavMain from "./components/navbar/NavMain";
 import Bible from "./pages/Bible";
 import Passage from "./pages/Passage";
 import Affirmation from "./pages/Affirmation";
-import NavList from "./components/navbar/NavList";
 import Word from "./pages/Word";
 import NavBottom from "./components/navbar/NavBottom";
 
