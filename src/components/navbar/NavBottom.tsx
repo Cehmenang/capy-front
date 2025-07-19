@@ -15,7 +15,7 @@ export default function NavBottom(){
     },[])
 
     return (
-        <div className="nav-bottom w-full fixed bottom-[70px] z-[10]" ref={nav}>
+        <div className="nav-bottom w-full fixed bottom-[20px] z-[10]" ref={nav}>
             <div className="nav-list flex bg-primary border-2 border-third py-2 mx-[24px] rounded-xl items-center justify-between px-4 gap-x-3">
                 <NavList/>
             </div>
